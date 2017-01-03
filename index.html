@@ -7,11 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700,700i" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./countdown.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
     <header class="cover-image">
     </header>
+
+    <section class="countdown">
+      <div id="clockdiv">
+	<div>
+	  <span class="days"></span>
+	  <div class="smalltext">Days</div>
+	</div>
+	<div>
+	  <span class="hours"></span>
+	  <div class="smalltext">Hours</div>
+	</div>
+	<div>
+	  <span class="minutes"></span>
+	  <div class="smalltext">Minutes</div>
+	</div>
+	<div>
+	  <span class="seconds"></span>
+	  <div class="smalltext">Seconds</div>
+	</div>
+      </div>
+    </section>
+
     <section class="content">
       <p>
 	<strong>22 January 2017</strong>
@@ -35,14 +58,47 @@
     <section class="content">
       <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.373294736068!2d80.267163!3d12.981871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e66fbd025b0e56!2sDwaraka+Kalyana+Mandapam!5e0!3m2!1sen!2sin!4v1482910072856" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-89239201-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+    <!-- <section class="content"> -->
+    <!--   <h2>Of the ceremony</h2> -->
+    <!--   Pandakkal -->
+    <!--   -- Announcing that there's a marriage in the home. -->
+    <!--   Kalyana Ponnu, Kalyana Payyan -->
+    <!--   Maapilai Azhaippu -->
+    <!--   -- Announcing that this is the groom -->
+    <!--   Nishchayadartham -->
+    <!--   -- assurance -->
+    <!--   Jathakarma Namakarnam -->
+    <!--   -- -->
+    <!--   Vratham -->
+    <!--   -- brahmacharyam -> gruhastha -->
+    <!--   Sriranga Yatra -->
+    <!--   -- -->
+    <!--   Maalai Matral -->
+    <!--   Oonjal -->
+    <!--   KanyaDaanam -->
+    <!--   Koora Podavai -->
+    <!--   Mangalya Dharanam -->
+    <!--   Panigrahanam -->
+    <!--   Sapthapathi -->
+    <!--   Ammi Midhithal -->
+    <!--   Arundathi Parthal -->
+    <!--   Nalangu -->
+
+    <!-- </section> -->
+
+    <section class="content">
+    </section>
+
+    <script type="text/javascript" src="timer.js">
+      <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-89239201-1', 'auto');
+	ga('send', 'pageview');
+      </script>
   </body>
 </html>

@@ -1,0 +1,29 @@
+.countdown {
+    text-align: center;
+    margin: 2% 0;
+    font-family: 'Alegreya', serif;
+}
+
+#clockdiv{
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    width: 50px;
+    border-radius: 3px;
+    background: rgba(240,240,240, 0.9);
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
