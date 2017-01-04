@@ -19,6 +19,10 @@ body {
     min-height: 98%;
 }
 
+section:last-of-type {
+    margin-bottom: 1%;
+}
+
 .cover-image {
     height: 66%;
 }
@@ -48,6 +52,31 @@ body {
     width: 100%;
 }
 
+.travel-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.travel-details p {
+    flex-grow: 1;
+}
+
+.travel-details ul {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aeroplanes {
+    width: 50%;
+}
+
+.details {
+    display: block;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+
 @media only screen and (max-device-width: 640px) {
     .content {
 	flex-direction: column;
@@ -55,4 +84,9 @@ body {
     .content p {
 	margin: 6% 1%;
     }
+
+    .travel-details {
+	flex-direction: column;
+    }
+
 }
