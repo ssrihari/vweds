@@ -24,7 +24,7 @@ section:last-of-type {
 }
 
 .cover-image {
-    height: 66%;
+    height: 50%;
 }
 
 .content {
@@ -46,6 +46,21 @@ section:last-of-type {
 
 .content + .content {
     margin-top: 1%;
+}
+
+nav.content {
+    padding: 0;
+}
+
+.nav-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: darkgreen;
+    padding: 0.5%;
+}
+
+.nav-link + .nav-link {
+    border-left: 2px solid #ccc;
 }
 
 .map {
@@ -70,23 +85,72 @@ section:last-of-type {
     width: 50%;
 }
 
+.travel-details a {
+    text-decoration: none;
+}
+
 .details {
     display: block;
     text-align: left;
     padding: 10px 20px;
 }
 
+.ritual {
+    display: flex;
+    flex-direction: row;
+    margin: 2% 0;
+}
+
+.ritual-detail {
+    flex-grow: 1;
+    margin-left: 2%;
+}
+
+.ritual-title {
+    display: inline;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+.ritual-image-container {
+    width: 200px;
+    min-width: 200px;
+}
+.ritual-image {
+    width: 100%;
+}
 
 @media only screen and (max-device-width: 640px) {
     .content {
 	flex-direction: column;
+	margin: 2%;
     }
     .content p {
 	margin: 6% 1%;
     }
 
+    .aeroplanes {
+	width: 100%;
+    }
+
     .travel-details {
 	flex-direction: column;
+    }
+
+    .ritual {
+	flex-direction: column;
+    }
+
+    .nav-link {
+	flex-direction: column;
+    }
+
+    .nav-link + .nav-link {
+	border-top: 1px solid #ccc;
+    }
+
+    .ritual-image-container {
+	min-width: 100%;
     }
 
 }
