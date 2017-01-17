@@ -120,6 +120,14 @@ nav.content {
     width: 100%;
 }
 
+#story {
+    text-align: left;
+}
+
+#story iframe {
+    height: 700px;
+}
+
 @media only screen and (max-device-width: 640px) {
     .content {
 	flex-direction: column;
@@ -151,6 +159,10 @@ nav.content {
 
     .ritual-image-container {
 	min-width: 100%;
+    }
+
+    #story iframe {
+	height: 200px;
     }
 
 }
